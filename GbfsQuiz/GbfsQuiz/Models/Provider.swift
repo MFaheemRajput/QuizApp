@@ -7,17 +7,18 @@
 
 import Foundation
 
-struct Provider {
+struct Provider: Identifiable, Hashable {
+    var id: UUID
     var countryCode: String
     var name: String
     var location: String
     var systemID: String
-    var url: URL
-    var autoDiscoveryURL: URL?
-    var authenticationInfo: String?
+    var url: String
+    var autoDiscoveryURL: String
+    var authenticationInfo: String
 
-    init(countryCode: String, name: String, location: String, systemID: String, url: URL, autoDiscoveryURL: URL? = nil, authenticationInfo: String? = nil) {
-        
+    init(countryCode: String, name: String, location: String, systemID: String, url: String, autoDiscoveryURL: String, authenticationInfo: String) {
+        self.id = UUID()
         self.countryCode = countryCode
         self.name = name
         self.location = location
@@ -25,8 +26,6 @@ struct Provider {
         self.url = url
         self.autoDiscoveryURL = autoDiscoveryURL
         self.authenticationInfo = authenticationInfo
-        
-    
     }
     
 }

@@ -12,8 +12,6 @@ import Firebase
 class LoginViewVM: ObservableObject {
     @Published var email: String = ""
     @Published var password: String = ""
-    //@Published var isLoggedIn: Bool = false
-    //@Published var errorMessage: String = ""
     @Published private(set) var loginState:LoginState = .idle
     
     func logIn() {
@@ -39,7 +37,6 @@ class LoginViewVM: ObservableObject {
         Auth.auth().signIn(withEmail: email, password: password) { [self]  authResult, error in
                 if let error = error {
                     print("Error logging in: \(error.localizedDescription)")
-                    //self.errorMessage = error.localizedDescription
                     loginState = .failure(error.localizedDescription)
                 } else {
                     print("User logged in successfully!")

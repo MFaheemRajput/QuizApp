@@ -24,7 +24,7 @@ struct GbfsQuizApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 
     init() {
-            ProviderLoader.shared.readCSVFromFile()
+            
         }
 
     var body: some Scene {
@@ -32,7 +32,8 @@ struct GbfsQuizApp: App {
             if Auth.auth().currentUser?.uid == nil {
                 LoginView()
             } else {
-                QuizController()
+                
+                ProviderView()
             }
 
         }

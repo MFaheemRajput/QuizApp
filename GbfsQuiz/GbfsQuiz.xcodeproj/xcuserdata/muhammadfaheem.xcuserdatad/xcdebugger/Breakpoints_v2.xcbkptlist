@@ -23,38 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8FB51975-86DA-4667-81E4-29B1A9F16FB7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GbfsQuiz/ProviderLoader.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "readCSVFromFile()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3538C92D-5795-4567-ADF0-E4E65418E461"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GbfsQuiz/ProviderLoader.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "readCSVFromFile()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "37C22721-9237-4F1F-92F6-69882140D3EC"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -62,8 +30,8 @@
             filePath = "GbfsQuiz/ProviderLoader.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "readCSVFromFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -92,8 +60,8 @@
             filePath = "GbfsQuiz/Authentication/LoginViewVM.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "logIn()"
             landmarkType = "7">
             <Locations>
@@ -543,8 +511,8 @@
             filePath = "GbfsQuiz/Authentication/LoginViewVM.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "logIn()"
             landmarkType = "7">
             <Locations>
@@ -606,8 +574,8 @@
             filePath = "GbfsQuiz/Authentication/LoginViewVM.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "logIn()"
             landmarkType = "7">
          </BreakpointContent>
@@ -622,8 +590,8 @@
             filePath = "GbfsQuiz/Authentication/LoginViewVM.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "logIn()"
             landmarkType = "7">
          </BreakpointContent>
@@ -942,7 +910,292 @@
                   endingLineNumber = "113"
                   offsetFromSymbolStart = "160">
                </Location>
+               <Location
+                  uuid = "CC53B903-00E9-4E2E-9BFF-D5100AB9899F - fee780d005ea6818"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int) -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in GbfsQuiz.QuizController.body.getter : some"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/Quiz/QuizController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "160">
+               </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6256327-6CC6-42BD-85CF-6732A67708A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchProviderDetail(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6256327-6CC6-42BD-85CF-6732A67708A2 - f08b270f07675652"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "639">
+               </Location>
+               <Location
+                  uuid = "D6256327-6CC6-42BD-85CF-6732A67708A2 - f08b270f07675673"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "737">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3F2F65E-365A-4089-89F2-5A9FBF0695EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchProviderDetail(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3F2F65E-365A-4089-89F2-5A9FBF0695EA - f08b270f07675735"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "133">
+               </Location>
+               <Location
+                  uuid = "F3F2F65E-365A-4089-89F2-5A9FBF0695EA - f08b270f07675735"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "F3F2F65E-365A-4089-89F2-5A9FBF0695EA - f08b270f07675735"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "229">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CED602B3-882E-44C0-948A-03361AF59930"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/ProviderDetailView/ProviderDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3948B49D-FC84-41C2-AD4E-DDE244191552"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchProviderDetail(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3948B49D-FC84-41C2-AD4E-DDE244191552 - f08b270f076757b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "555">
+               </Location>
+               <Location
+                  uuid = "3948B49D-FC84-41C2-AD4E-DDE244191552 - f08b270f076757b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1C7EC90-DC67-4C46-A46C-BF30E33E4302"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchProviderDetail(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1C7EC90-DC67-4C46-A46C-BF30E33E4302 - f08b270f07675714"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "202">
+               </Location>
+               <Location
+                  uuid = "E1C7EC90-DC67-4C46-A46C-BF30E33E4302 - f08b270f07675714"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "257">
+               </Location>
+               <Location
+                  uuid = "E1C7EC90-DC67-4C46-A46C-BF30E33E4302 - f08b270f07675714"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GbfsQuiz.ProviderDetailViewVM.fetchProviderDetail(GbfsQuiz.Provider) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "538">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9F5D85A-5002-47F6-BC9B-E46627128374"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchProviderDetail(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40894B90-CD02-4A17-97ED-1F3685E79BC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/ProviderDetailView/ProviderDetailViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchProviderDetail(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -9,9 +9,10 @@ import Foundation
 import SwiftCSV
 
 class ProviderLoader : NSObject{
-    
     static let shared = ProviderLoader()
     var providers:[Provider]
+    var selectedProvider:Provider?
+    var providerDetail:ProviderDetail?
     
     //Initializer access level change now
     private override init(){
@@ -24,7 +25,7 @@ class ProviderLoader : NSObject{
             do {
                 
                 let csv: CSV = try CSV<Named>(url: URL(fileURLWithPath: csvFileURL))
-            
+                
                 for row in csv.rows {
                     guard let cc = row["Country Code"] else {
                         return
@@ -49,17 +50,67 @@ class ProviderLoader : NSObject{
                     }
                     
                     let providerModel = Provider(
-                            countryCode: cc,
-                            name: name,
-                            location: location,
-                            systemID: sysId,
-                            url: URL.init(fileURLWithPath: url))
-                        
-                    providers.append(providerModel)
+                        countryCode: cc,
+                        name: name,
+                        location: location,
+                        systemID: sysId,
+                        url: url,
+                        autoDiscoveryURL: adu,
+                        authenticationInfo: authInfo
+                    )
+                    
+                    self.providers.append(providerModel)
                 }
             } catch {
                 print("Error reading CSV file: \(error)")
             }
         }
     }
+    
+    func fetchGbfsdata(_ urlString: String, completion: @escaping (ProviderDetail?) -> Void) {
+        guard let url = URL(string: urlString) else {
+            print("Invalid URL")
+            completion(nil)
+            return
+        }
+        
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            if let error = error {
+                print("Error: \(error.localizedDescription)")
+                completion(nil)
+                return
+            }
+            
+            guard let httpResponse = response as? HTTPURLResponse,
+                  httpResponse.statusCode == 200 else {
+                print("HTTP Error: \(response?.description ?? "Unknown")")
+                completion(nil)
+                return
+            }
+            
+            guard let data = data else {
+                print("No data received")
+                completion(nil)
+                return
+            }
+            
+            if let responseString = String(data: data, encoding: .utf8) {
+                do {
+                    print(response)
+                    let decoder = JSONDecoder()
+                    let response: ProviderDetail = try decoder.decode(ProviderDetail.self, from: responseString.data(using: .utf8)!)
+                    DispatchQueue.main.async {
+                        completion(response)
+                    }
+                } catch {
+                    print("Error decoding JSON: \(error)")
+                    DispatchQueue.main.async {
+                        completion(nil)
+                    }
+                }
+            }
+        }.resume()
+    }
+
+    
 }

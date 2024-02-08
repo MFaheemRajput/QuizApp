@@ -23,6 +23,10 @@
 		1103185B2B73D34800502128 /* ProviderViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318592B73D34800502128 /* ProviderViewVM.swift */; };
 		1103185D2B73EEE600502128 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103185C2B73EEE600502128 /* LoginState.swift */; };
 		1103185E2B73EEE600502128 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103185C2B73EEE600502128 /* LoginState.swift */; };
+		110318602B74B6AF00502128 /* ProviderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103185F2B74B6AF00502128 /* ProviderState.swift */; };
+		110318632B74BA1000502128 /* ProviderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318622B74BA1000502128 /* ProviderDetailView.swift */; };
+		110318652B74BDEE00502128 /* ProviderDetailViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318642B74BDEE00502128 /* ProviderDetailViewVM.swift */; };
+		110318672B74CEA200502128 /* ProviderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318662B74CEA200502128 /* ProviderDetail.swift */; };
 		1127209A2B6F8B0300574BCD /* GbfsQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720992B6F8B0300574BCD /* GbfsQuizApp.swift */; };
 		1127209C2B6F8B0300574BCD /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127209B2B6F8B0300574BCD /* QuizController.swift */; };
 		1127209E2B6F8B0500574BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1127209D2B6F8B0500574BCD /* Assets.xcassets */; };
@@ -91,6 +95,10 @@
 		110318562B73D33200502128 /* ProviderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderView.swift; sourceTree = "<group>"; };
 		110318592B73D34800502128 /* ProviderViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderViewVM.swift; sourceTree = "<group>"; };
 		1103185C2B73EEE600502128 /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
+		1103185F2B74B6AF00502128 /* ProviderState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderState.swift; sourceTree = "<group>"; };
+		110318622B74BA1000502128 /* ProviderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDetailView.swift; sourceTree = "<group>"; };
+		110318642B74BDEE00502128 /* ProviderDetailViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDetailViewVM.swift; sourceTree = "<group>"; };
+		110318662B74CEA200502128 /* ProviderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDetail.swift; sourceTree = "<group>"; };
 		112720962B6F8B0300574BCD /* GbfsQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GbfsQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112720992B6F8B0300574BCD /* GbfsQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GbfsQuizApp.swift; sourceTree = "<group>"; };
 		1127209B2B6F8B0300574BCD /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
@@ -168,8 +176,18 @@
 			children = (
 				110318562B73D33200502128 /* ProviderView.swift */,
 				110318592B73D34800502128 /* ProviderViewVM.swift */,
+				1103185F2B74B6AF00502128 /* ProviderState.swift */,
 			);
 			path = ProviderView;
+			sourceTree = "<group>";
+		};
+		110318612B74B9F200502128 /* ProviderDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				110318622B74BA1000502128 /* ProviderDetailView.swift */,
+				110318642B74BDEE00502128 /* ProviderDetailViewVM.swift */,
+			);
+			path = ProviderDetailView;
 			sourceTree = "<group>";
 		};
 		1127208D2B6F8B0300574BCD = {
@@ -195,6 +213,7 @@
 		112720982B6F8B0300574BCD /* GbfsQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				110318612B74B9F200502128 /* ProviderDetailView */,
 				110318552B73D31400502128 /* ProviderView */,
 				1103184E2B73640300502128 /* LeaderBoard */,
 				110318472B72A8D800502128 /* DataSource */,
@@ -254,6 +273,7 @@
 				112720EF2B6FE8AA00574BCD /* MCQ.swift */,
 				112720F22B6FE9CB00574BCD /* Quiz.swift */,
 				110318532B7364EF00502128 /* ScoreListItem.swift */,
+				110318662B74CEA200502128 /* ProviderDetail.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -439,8 +459,10 @@
 			files = (
 				112720E32B6FB24400574BCD /* SignupView.swift in Sources */,
 				110318522B73643800502128 /* LeaderBoardViewVM.swift in Sources */,
+				110318632B74BA1000502128 /* ProviderDetailView.swift in Sources */,
 				112720DD2B6FB1FA00574BCD /* SignupViewVM.swift in Sources */,
 				110318502B73641C00502128 /* LeaderBoardView.swift in Sources */,
+				110318672B74CEA200502128 /* ProviderDetail.swift in Sources */,
 				112720DA2B6FB1EC00574BCD /* LoginViewVM.swift in Sources */,
 				110318402B718A6800502128 /* Tost.swift in Sources */,
 				112720D32B6F9C8800574BCD /* Provider.swift in Sources */,
@@ -448,6 +470,7 @@
 				112720F02B6FE8AA00574BCD /* MCQ.swift in Sources */,
 				1127209C2B6F8B0300574BCD /* QuizController.swift in Sources */,
 				1127209A2B6F8B0300574BCD /* GbfsQuizApp.swift in Sources */,
+				110318652B74BDEE00502128 /* ProviderDetailViewVM.swift in Sources */,
 				112720ED2B6FE2E700574BCD /* QuizControllerVM.swift in Sources */,
 				1103185A2B73D34800502128 /* ProviderViewVM.swift in Sources */,
 				1103185D2B73EEE600502128 /* LoginState.swift in Sources */,
@@ -459,6 +482,7 @@
 				112720E92B6FE13900574BCD /* User.swift in Sources */,
 				110318462B7279A000502128 /* ResultView.swift in Sources */,
 				110318442B7271C500502128 /* MultipleChoiceQuestionView.swift in Sources */,
+				110318602B74B6AF00502128 /* ProviderState.swift in Sources */,
 				110318422B726A3B00502128 /* String+Extention.swift in Sources */,
 				112720D02B6F936500574BCD /* Constants.swift in Sources */,
 			);

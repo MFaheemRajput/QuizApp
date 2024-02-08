@@ -1,37 +1,41 @@
 //
-//  ProviderView.swift
+//  ProviderDetailView.swift
 //  GbfsQuiz
 //
-//  Created by Muhammad Faheem Khan on 06/02/2024.
+//  Created by Muhammad Faheem Khan on 08/02/2024.
 //
 
 import SwiftUI
 
-struct ProviderView: View {
-    @ObservedObject var viewModel = ProviderViewVM()
+struct ProviderDetailView: View {
+    @ObservedObject var viewModel = ProviderDetailViewVM()
     @State private var navigateToQuizView = false
     @State private var showErrorToast = false
     @State private var errorMessage = ""
     @State private var showProgress = false
+    let provider: Provider
     
     var body: some View {
         NavigationView{
             
-            List {
-                ForEach(viewModel.providers, id: \.self) { item in
-                    NavigationLink(destination: ProviderDetailView(provider: item)) {
+            if let feeds = viewModel.providersDetail?.data.en.feeds {
+                List(feeds, id: \.name) { feed in
+                    NavigationLink(destination: QuizController()) {
                         VStack(alignment: .leading) {
-                            Text("Name: \(item.name)")
+                            Text("Name: \(feed.name)")
+                            Text("URL: \(feed.url)")
                         }
                     }
+                    
                 }
+                .navigationTitle("Feeds")
+            } else {
+                Text("No feeds found")
             }
-            .navigationTitle("Providers")
-            .onAppear {
-                viewModel.fetchProviders()
-            }
-            
-        }.onChange(of: viewModel.providerState) { state in
+        }.onAppear {
+            viewModel.fetchProviderDetail(self.provider)
+        }
+        .onChange(of: viewModel.providerState) { state in
             switch(state) {
             case .idle:
                 showErrorToast = false
@@ -49,8 +53,4 @@ struct ProviderView: View {
             }
         }
     }
-}
-
-#Preview {
-    ProviderView()
 }

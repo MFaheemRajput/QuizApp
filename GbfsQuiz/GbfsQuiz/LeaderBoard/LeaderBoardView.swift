@@ -18,9 +18,9 @@ struct LeaderBoardView: View {
                     Text("Score: \(item.point)")
                 }
             }
-                .onAppear {
+            .onAppear {
                     viewModel.fetchAllData(scoreBoard)
-                }
+            }
         }.navigationBarTitle("Scoreboard", displayMode: .inline)
     }
 }

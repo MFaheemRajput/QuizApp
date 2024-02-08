@@ -51,7 +51,7 @@ struct LoginView: View {
                 
                 
                 if(navigateToQuizView){
-                    NavigationLink(destination: QuizController(), isActive: $navigateToQuizView ,label: {
+                    NavigationLink(destination: ProviderView(), isActive: $navigateToQuizView ,label: {
                         EmptyView()
                     })
                 }
