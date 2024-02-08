@@ -51,7 +51,7 @@ struct Quiz {
             ),
             MCQ(
                 question: "When was the station last reported?",
-                options: ["1707320069", "0", "null", "true"],
+                options: ["1707320069", "0", "no", "true"],
                 correctAnswerIndex: 0
             ),
             MCQ(
@@ -61,7 +61,7 @@ struct Quiz {
             ),
             MCQ(
                 question: "What is the status of the station?",
-                options: ["IN_SERVICE", "OUT_OF_SERVICE", "null", "true"],
+                options: ["IN_SERVICE", "OUT_OF_SERVICE", "no", "true"],
                 correctAnswerIndex: 0
             ),
             MCQ(
@@ -81,7 +81,7 @@ struct Quiz {
             ),
             MCQ(
                 question: "What is the traffic status of the station?",
-                options: ["null", "true", "IN_SERVICE", "OUT_OF_SERVICE"],
+                options: ["no", "true", "IN_SERVICE", "OUT_OF_SERVICE"],
                 correctAnswerIndex: 0
             ),
             MCQ(

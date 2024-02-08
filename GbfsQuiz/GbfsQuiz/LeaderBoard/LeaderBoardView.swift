@@ -22,6 +22,7 @@ struct LeaderBoardView: View {
                     viewModel.fetchAllData(scoreBoard)
             }
         }.navigationBarTitle("Scoreboard", displayMode: .inline)
+            .navigationBarBackButtonHidden()
     }
 }
 
