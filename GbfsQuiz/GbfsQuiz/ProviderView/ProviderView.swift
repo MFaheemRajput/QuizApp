@@ -15,42 +15,42 @@ struct ProviderView: View {
     
     var body: some View {
         NavigationView{
-            if(showProgress){
-                ProgressView()
-            } else {
-                List {
-                    ForEach(viewModel.providers, id: \.self) { item in
-                        NavigationLink(destination: ProviderDetailView(provider: item)) {
-                            VStack(alignment: .leading) {
-                                Text("Name: \(item.name)")
+            VStack{
+                if(showProgress){
+                    ProgressView()
+                } else {
+                    List {
+                        ForEach(viewModel.providers, id: \.self) { item in
+                            NavigationLink(destination: ProviderDetailView(provider: item)) {
+                                VStack(alignment: .leading) {
+                                    Text("Name: \(item.name)")
+                                }
                             }
                         }
                     }
                 }
-            }
             
-        }.navigationBarTitle("Providers", displayMode: .inline)
-        .onAppear {
-            viewModel.fetchProviders()
-        }.onChange(of: viewModel.providerState) { state in
-            switch(state) {
-            case .idle:
-                showErrorToast = false
-                showProgress = false
-            case .loading:
-                showProgress = true
-                showErrorToast = false
-            case .success:
-                showProgress = false
-            case .failure(let errorMessage):
-                showProgress = false
-                self.errorMessage = errorMessage
-                showErrorToast = true
-            }
+            }.navigationBarTitle("Providers", displayMode: .inline)
+                .onAppear {
+                    viewModel.fetchProviders()
+                }.onChange(of: viewModel.providerState) { state in
+                    switch(state) {
+                    case .idle:
+                        showErrorToast = false
+                        showProgress = false
+                    case .loading:
+                        showProgress = true
+                        showErrorToast = false
+                    case .success:
+                        showProgress = false
+                    case .failure(let errorMessage):
+                        showProgress = false
+                        self.errorMessage = errorMessage
+                        showErrorToast = true
+                    }
+                }
         }
         .navigationBarBackButtonHidden(true)
-        
-        
     }
 }
 

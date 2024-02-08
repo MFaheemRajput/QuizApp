@@ -820,117 +820,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0C0C6812-FD5E-4098-8CBB-C2DCBCF77DE5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GbfsQuiz/Quiz/QuizController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "0C0C6812-FD5E-4098-8CBB-C2DCBCF77DE5 - ba5741a8a7571f7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in GbfsQuiz.QuizController.body.getter : some"
-                  moduleName = "GbfsQuiz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muhammadfaheem/Desktop/Projects/GbfsQuiz/GbfsQuiz/GbfsQuiz/Quiz/QuizController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "122"
-                  endingLineNumber = "122"
-                  offsetFromSymbolStart = "1250">
-               </Location>
-               <Location
-                  uuid = "0C0C6812-FD5E-4098-8CBB-C2DCBCF77DE5 - 7cbc09ef5143ed3a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Int) -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in GbfsQuiz.QuizController.body.getter : some"
-                  moduleName = "GbfsQuiz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muhammadfaheem/Desktop/Projects/GbfsQuiz/GbfsQuiz/GbfsQuiz/Quiz/QuizController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "122"
-                  endingLineNumber = "122"
-                  offsetFromSymbolStart = "86">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CC53B903-00E9-4E2E-9BFF-D5100AB9899F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GbfsQuiz/Quiz/QuizController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "CC53B903-00E9-4E2E-9BFF-D5100AB9899F - 7cbc09ef5143ed1b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Int) -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in GbfsQuiz.QuizController.body.getter : some"
-                  moduleName = "GbfsQuiz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muhammadfaheem/Desktop/Projects/GbfsQuiz/GbfsQuiz/GbfsQuiz/Quiz/QuizController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "123"
-                  endingLineNumber = "123"
-                  offsetFromSymbolStart = "160">
-               </Location>
-               <Location
-                  uuid = "CC53B903-00E9-4E2E-9BFF-D5100AB9899F - 7cbc09ef5143ebc1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Int) -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in GbfsQuiz.QuizController.body.getter : some"
-                  moduleName = "GbfsQuiz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muhammadfaheem/Desktop/Projects/GbfsQuiz/GbfsQuiz/GbfsQuiz/Quiz/QuizController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "160">
-               </Location>
-               <Location
-                  uuid = "CC53B903-00E9-4E2E-9BFF-D5100AB9899F - fee780d005ea6818"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Int) -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in GbfsQuiz.QuizController.body.getter : some"
-                  moduleName = "GbfsQuiz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/Quiz/QuizController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "160">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D6256327-6CC6-42BD-85CF-6732A67708A2"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -1155,85 +1044,23 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1D29650D-F452-40BD-AE3B-7EC823EED03B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GbfsQuiz/ProviderView/ProviderView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "1D29650D-F452-40BD-AE3B-7EC823EED03B - 68adaf5f6d58bede"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GbfsQuiz.ProviderView.body.getter : some"
-                  moduleName = "GbfsQuiz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderView/ProviderView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "949">
-               </Location>
-               <Location
-                  uuid = "1D29650D-F452-40BD-AE3B-7EC823EED03B - ab40c3b8b17f8753"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;GbfsQuiz.Provider&gt;, GbfsQuiz.Provider, SwiftUI.NavigationLink&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;, GbfsQuiz.ProviderDetailView&gt;&gt;&gt; in GbfsQuiz.ProviderView.body.getter : some"
-                  moduleName = "GbfsQuiz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderView/ProviderView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "755">
-               </Location>
-               <Location
-                  uuid = "1D29650D-F452-40BD-AE3B-7EC823EED03B - 783a18b7e7fdd6c3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; () in GbfsQuiz.ProviderView.body.getter : some"
-                  moduleName = "GbfsQuiz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderView/ProviderView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "25">
-               </Location>
-               <Location
-                  uuid = "1D29650D-F452-40BD-AE3B-7EC823EED03B - 783a18b7e7fdd6c3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; () in GbfsQuiz.ProviderView.body.getter : some"
-                  moduleName = "GbfsQuiz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderView/ProviderView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "42">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "7FF95230-C826-4161-8342-F831566F4BC2"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GbfsQuiz/ProviderView/ProviderViewVM.swift"
@@ -1281,7 +1108,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BF47778F-4399-4224-AFC2-A2A28305DFA0"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GbfsQuiz/ProviderView/ProviderViewVM.swift"
@@ -1329,7 +1156,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2789A2D6-6E1E-41BA-A77C-FF157F816154"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GbfsQuiz/ProviderView/ProviderViewVM.swift"
@@ -1339,6 +1166,258 @@
             endingLineNumber = "22"
             landmarkName = "fetchProviders()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75CEE765-6979-4666-B0FC-2B7AAFEF1297"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/ProviderView/ProviderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "75CEE765-6979-4666-B0FC-2B7AAFEF1297 - 4edb57103f66413a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GbfsQuiz.Provider&gt;, GbfsQuiz.Provider, SwiftUI.NavigationLink&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;, GbfsQuiz.ProviderDetailView&gt;&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;GbfsQuiz.Provider&gt;, GbfsQuiz.Provider, SwiftUI.NavigationLink&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;, GbfsQuiz.ProviderDetailView&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0 in GbfsQuiz.ProviderView.body.getter : some"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderView/ProviderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "123">
+               </Location>
+               <Location
+                  uuid = "75CEE765-6979-4666-B0FC-2B7AAFEF1297 - 2e627a1f8ef8aef3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GbfsQuiz.Provider) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;, GbfsQuiz.ProviderDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GbfsQuiz.Provider&gt;, GbfsQuiz.Provider, SwiftUI.NavigationLink&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;, GbfsQuiz.ProviderDetailView&gt;&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;GbfsQuiz.Provider&gt;, GbfsQuiz.Provider, SwiftUI.NavigationLink&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;, GbfsQuiz.ProviderDetailView&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0 in GbfsQuiz.ProviderView.body.getter : some"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderView/ProviderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "75CEE765-6979-4666-B0FC-2B7AAFEF1297 - bb58c32ddb8e58ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GbfsQuiz.Provider&gt;, GbfsQuiz.Provider, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;GbfsQuiz.Provider&gt;, GbfsQuiz.Provider, SwiftUI.Text&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0 in GbfsQuiz.ProviderView.body.getter : some"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderView/ProviderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "75CEE765-6979-4666-B0FC-2B7AAFEF1297 - 28e56c2c5dd1fe21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GbfsQuiz.Provider) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GbfsQuiz.Provider&gt;, GbfsQuiz.Provider, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;GbfsQuiz.Provider&gt;, GbfsQuiz.Provider, SwiftUI.Text&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0 in GbfsQuiz.ProviderView.body.getter : some"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/ProviderView/ProviderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "151">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BE12C0B-1121-4644-8144-F52BF8FDA962"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchAllData(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6BE12C0B-1121-4644-8144-F52BF8FDA962 - 58eda910f5901fc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GbfsQuiz.LeaderBoardViewVM.fetchAllData(Swift.String) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "6BE12C0B-1121-4644-8144-F52BF8FDA962 - 9f6331e5a7efb2d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in GbfsQuiz.LeaderBoardViewVM.fetchAllData(Swift.String) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "6BE12C0B-1121-4644-8144-F52BF8FDA962 - e436229ce2bb53c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GbfsQuiz.LeaderBoardViewVM.fetchAllData(Swift.String) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "6BE12C0B-1121-4644-8144-F52BF8FDA962 - e436229ce2bb53c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GbfsQuiz.LeaderBoardViewVM.fetchAllData(Swift.String) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "831E747C-BED8-4B69-A65F-0FD974F48CB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchAllData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B71F4F26-7892-4CDB-8212-A4EC50132717"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchAllData(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B71F4F26-7892-4CDB-8212-A4EC50132717 - e436229ce2bb5303"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in GbfsQuiz.LeaderBoardViewVM.fetchAllData(Swift.String) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "B71F4F26-7892-4CDB-8212-A4EC50132717 - 733e1603cda72e2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;GbfsQuiz.ScoreListItem&gt; in closure #1 @Sendable () async -&gt; () in GbfsQuiz.LeaderBoardViewVM.fetchAllData(Swift.String) -&gt; ()"
+                  moduleName = "GbfsQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhammadfaheem/Desktop/Personal_Projects/QuizApp/QuizApp/GbfsQuiz/GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "142">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D83DE75B-4149-43C1-A262-D0DDF3FDD73A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/LeaderBoard/LeaderBoardViewVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchAllData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC6821F9-2447-43BE-B764-50DEB649B052"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GbfsQuiz/LeaderBoard/LeaderBoardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

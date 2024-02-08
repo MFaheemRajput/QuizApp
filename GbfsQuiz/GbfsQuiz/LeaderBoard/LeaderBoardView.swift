@@ -8,21 +8,27 @@
 import SwiftUI
 
 struct LeaderBoardView: View {
-    
     @ObservedObject var viewModel = LeaderBoardViewVM()
     var body: some View {
         NavigationView {
-            List(viewModel.scoreboardItems) { item in
-                VStack(alignment: .leading) {
-                    Text("Player: \(item.email)")
-                    Text("Score: \(item.point)")
+            VStack{
+                List(viewModel.scoreboardItems) { item in
+                    VStack(alignment: .leading) {
+                        Text("Player: \(item.email)")
+                        Text("Score: \(item.point)")
+                    }
                 }
+                
+            }.onAppear {
+                
+                Task {
+                    await viewModel.fetchAllData(scoreBoard)
+                }
+                
             }
-            .onAppear {
-                    viewModel.fetchAllData(scoreBoard)
-            }
-        }.navigationBarTitle("Scoreboard", displayMode: .inline)
-            .navigationBarBackButtonHidden()
+        }
+        .navigationBarTitle("Scoreboard", displayMode: .inline)
+        .navigationBarBackButtonHidden()
     }
 }
 
