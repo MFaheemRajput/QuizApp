@@ -1,0 +1,4 @@
+Country Code,Name,Location,System ID,URL,Auto-Discovery URL,Authentication Info
+AE,Careem BIKE,Dubai,careem_bike,https://www.careem.com/en-ae/careem-bike/,https://dubai.publicbikesystem.net/customer/gbfs/v2/gbfs.json,
+AR,Bike Nordelta,Buenos Aires,bike_nordelta,https://bikeitau.com.br/nordelta/,https://nordelta.publicbikesystem.net/ube/gbfs/v1/,
+AR,Ecobici,Buenos Aires,bike_buenosaires,https://www.buenosaires.gob.ar/ecobici,https://buenosaires.publicbikesystem.net/ube/gbfs/v1/,

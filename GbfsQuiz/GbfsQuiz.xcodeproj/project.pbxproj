@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110318402B718A6800502128 /* Tost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103183F2B718A6800502128 /* Tost.swift */; };
+		110318422B726A3B00502128 /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318412B726A3B00502128 /* String+Extention.swift */; };
+		110318442B7271C500502128 /* MultipleChoiceQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318432B7271C500502128 /* MultipleChoiceQuestionView.swift */; };
+		110318462B7279A000502128 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318452B7279A000502128 /* ResultView.swift */; };
+		110318492B72A8F500502128 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318482B72A8F500502128 /* DAO.swift */; };
+		1103184B2B72A9FB00502128 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1103184A2B72A9FB00502128 /* FirebaseFirestore */; };
+		1103184D2B72AA5200502128 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1103184C2B72AA5200502128 /* FirebaseFirestoreSwift */; };
+		110318502B73641C00502128 /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103184F2B73641C00502128 /* LeaderBoardView.swift */; };
+		110318522B73643800502128 /* LeaderBoardViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318512B73643800502128 /* LeaderBoardViewVM.swift */; };
+		110318542B7364EF00502128 /* ScoreListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318532B7364EF00502128 /* ScoreListItem.swift */; };
+		110318572B73D33200502128 /* ProviderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318562B73D33200502128 /* ProviderView.swift */; };
+		110318582B73D33200502128 /* ProviderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318562B73D33200502128 /* ProviderView.swift */; };
+		1103185A2B73D34800502128 /* ProviderViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318592B73D34800502128 /* ProviderViewVM.swift */; };
+		1103185B2B73D34800502128 /* ProviderViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110318592B73D34800502128 /* ProviderViewVM.swift */; };
+		1103185D2B73EEE600502128 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103185C2B73EEE600502128 /* LoginState.swift */; };
+		1103185E2B73EEE600502128 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103185C2B73EEE600502128 /* LoginState.swift */; };
+		1127209A2B6F8B0300574BCD /* GbfsQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720992B6F8B0300574BCD /* GbfsQuizApp.swift */; };
+		1127209C2B6F8B0300574BCD /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127209B2B6F8B0300574BCD /* QuizController.swift */; };
+		1127209E2B6F8B0500574BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1127209D2B6F8B0500574BCD /* Assets.xcassets */; };
+		112720A12B6F8B0500574BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112720A02B6F8B0500574BCD /* Preview Assets.xcassets */; };
+		112720AB2B6F8B0500574BCD /* GbfsQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720AA2B6F8B0500574BCD /* GbfsQuizTests.swift */; };
+		112720B52B6F8B0500574BCD /* GbfsQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720B42B6F8B0500574BCD /* GbfsQuizUITests.swift */; };
+		112720B72B6F8B0500574BCD /* GbfsQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720B62B6F8B0500574BCD /* GbfsQuizUITestsLaunchTests.swift */; };
+		112720C52B6F8C4200574BCD /* systems.csv in Resources */ = {isa = PBXBuildFile; fileRef = 112720C42B6F8C4200574BCD /* systems.csv */; };
+		112720C62B6F8C4200574BCD /* systems.csv in Resources */ = {isa = PBXBuildFile; fileRef = 112720C42B6F8C4200574BCD /* systems.csv */; };
+		112720CA2B6F92AE00574BCD /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 112720C92B6F92AE00574BCD /* SwiftCSV */; };
+		112720CC2B6F92DC00574BCD /* ProviderLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720CB2B6F92DC00574BCD /* ProviderLoader.swift */; };
+		112720CD2B6F92DC00574BCD /* ProviderLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720CB2B6F92DC00574BCD /* ProviderLoader.swift */; };
+		112720D02B6F936500574BCD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720CF2B6F936500574BCD /* Constants.swift */; };
+		112720D12B6F936500574BCD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720CF2B6F936500574BCD /* Constants.swift */; };
+		112720D32B6F9C8800574BCD /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720D22B6F9C8800574BCD /* Provider.swift */; };
+		112720D42B6F9C8800574BCD /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720D22B6F9C8800574BCD /* Provider.swift */; };
+		112720D62B6FA3A800574BCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 112720D52B6FA3A800574BCD /* GoogleService-Info.plist */; };
+		112720D72B6FA3A800574BCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 112720D52B6FA3A800574BCD /* GoogleService-Info.plist */; };
+		112720DA2B6FB1EC00574BCD /* LoginViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720D92B6FB1EC00574BCD /* LoginViewVM.swift */; };
+		112720DB2B6FB1EC00574BCD /* LoginViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720D92B6FB1EC00574BCD /* LoginViewVM.swift */; };
+		112720DD2B6FB1FA00574BCD /* SignupViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720DC2B6FB1FA00574BCD /* SignupViewVM.swift */; };
+		112720DE2B6FB1FA00574BCD /* SignupViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720DC2B6FB1FA00574BCD /* SignupViewVM.swift */; };
+		112720E02B6FB23500574BCD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720DF2B6FB23500574BCD /* LoginView.swift */; };
+		112720E12B6FB23500574BCD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720DF2B6FB23500574BCD /* LoginView.swift */; };
+		112720E32B6FB24400574BCD /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720E22B6FB24400574BCD /* SignupView.swift */; };
+		112720E42B6FB24400574BCD /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720E22B6FB24400574BCD /* SignupView.swift */; };
+		112720E72B6FBE8F00574BCD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 112720E62B6FBE8F00574BCD /* FirebaseAuth */; };
+		112720E92B6FE13900574BCD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720E82B6FE13900574BCD /* User.swift */; };
+		112720EA2B6FE13900574BCD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720E82B6FE13900574BCD /* User.swift */; };
+		112720ED2B6FE2E700574BCD /* QuizControllerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720EC2B6FE2E700574BCD /* QuizControllerVM.swift */; };
+		112720EE2B6FE2E700574BCD /* QuizControllerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720EC2B6FE2E700574BCD /* QuizControllerVM.swift */; };
+		112720F02B6FE8AA00574BCD /* MCQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720EF2B6FE8AA00574BCD /* MCQ.swift */; };
+		112720F12B6FE8AA00574BCD /* MCQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720EF2B6FE8AA00574BCD /* MCQ.swift */; };
+		112720F32B6FE9CB00574BCD /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720F22B6FE9CB00574BCD /* Quiz.swift */; };
+		112720F42B6FE9CB00574BCD /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112720F22B6FE9CB00574BCD /* Quiz.swift */; };
+		117E33C52B710A7400A2BABE /* CSV in Frameworks */ = {isa = PBXBuildFile; productRef = 117E33C42B710A7400A2BABE /* CSV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		112720A72B6F8B0500574BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1127208E2B6F8B0300574BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112720952B6F8B0300574BCD;
+			remoteInfo = GbfsQuiz;
+		};
+		112720B12B6F8B0500574BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1127208E2B6F8B0300574BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112720952B6F8B0300574BCD;
+			remoteInfo = GbfsQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1103183E2B71284A00502128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1103183F2B718A6800502128 /* Tost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tost.swift; sourceTree = "<group>"; };
+		110318412B726A3B00502128 /* String+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		110318432B7271C500502128 /* MultipleChoiceQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceQuestionView.swift; sourceTree = "<group>"; };
+		110318452B7279A000502128 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		110318482B72A8F500502128 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		1103184F2B73641C00502128 /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		110318512B73643800502128 /* LeaderBoardViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewVM.swift; sourceTree = "<group>"; };
+		110318532B7364EF00502128 /* ScoreListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreListItem.swift; sourceTree = "<group>"; };
+		110318562B73D33200502128 /* ProviderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderView.swift; sourceTree = "<group>"; };
+		110318592B73D34800502128 /* ProviderViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderViewVM.swift; sourceTree = "<group>"; };
+		1103185C2B73EEE600502128 /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
+		112720962B6F8B0300574BCD /* GbfsQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GbfsQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		112720992B6F8B0300574BCD /* GbfsQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GbfsQuizApp.swift; sourceTree = "<group>"; };
+		1127209B2B6F8B0300574BCD /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		1127209D2B6F8B0500574BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		112720A02B6F8B0500574BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		112720A62B6F8B0500574BCD /* GbfsQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GbfsQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		112720AA2B6F8B0500574BCD /* GbfsQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GbfsQuizTests.swift; sourceTree = "<group>"; };
+		112720B02B6F8B0500574BCD /* GbfsQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GbfsQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		112720B42B6F8B0500574BCD /* GbfsQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GbfsQuizUITests.swift; sourceTree = "<group>"; };
+		112720B62B6F8B0500574BCD /* GbfsQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GbfsQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		112720C42B6F8C4200574BCD /* systems.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = systems.csv; sourceTree = "<group>"; };
+		112720CB2B6F92DC00574BCD /* ProviderLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderLoader.swift; sourceTree = "<group>"; };
+		112720CF2B6F936500574BCD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		112720D22B6F9C8800574BCD /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		112720D52B6FA3A800574BCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		112720D92B6FB1EC00574BCD /* LoginViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewVM.swift; sourceTree = "<group>"; };
+		112720DC2B6FB1FA00574BCD /* SignupViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewVM.swift; sourceTree = "<group>"; };
+		112720DF2B6FB23500574BCD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		112720E22B6FB24400574BCD /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		112720E82B6FE13900574BCD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		112720EC2B6FE2E700574BCD /* QuizControllerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizControllerVM.swift; sourceTree = "<group>"; };
+		112720EF2B6FE8AA00574BCD /* MCQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQ.swift; sourceTree = "<group>"; };
+		112720F22B6FE9CB00574BCD /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112720932B6F8B0300574BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1103184D2B72AA5200502128 /* FirebaseFirestoreSwift in Frameworks */,
+				117E33C52B710A7400A2BABE /* CSV in Frameworks */,
+				1103184B2B72A9FB00502128 /* FirebaseFirestore in Frameworks */,
+				112720CA2B6F92AE00574BCD /* SwiftCSV in Frameworks */,
+				112720E72B6FBE8F00574BCD /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112720A32B6F8B0500574BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112720AD2B6F8B0500574BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110318472B72A8D800502128 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				110318482B72A8F500502128 /* DAO.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		1103184E2B73640300502128 /* LeaderBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1103184F2B73641C00502128 /* LeaderBoardView.swift */,
+				110318512B73643800502128 /* LeaderBoardViewVM.swift */,
+			);
+			path = LeaderBoard;
+			sourceTree = "<group>";
+		};
+		110318552B73D31400502128 /* ProviderView */ = {
+			isa = PBXGroup;
+			children = (
+				110318562B73D33200502128 /* ProviderView.swift */,
+				110318592B73D34800502128 /* ProviderViewVM.swift */,
+			);
+			path = ProviderView;
+			sourceTree = "<group>";
+		};
+		1127208D2B6F8B0300574BCD = {
+			isa = PBXGroup;
+			children = (
+				112720982B6F8B0300574BCD /* GbfsQuiz */,
+				112720A92B6F8B0500574BCD /* GbfsQuizTests */,
+				112720B32B6F8B0500574BCD /* GbfsQuizUITests */,
+				112720972B6F8B0300574BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		112720972B6F8B0300574BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				112720962B6F8B0300574BCD /* GbfsQuiz.app */,
+				112720A62B6F8B0500574BCD /* GbfsQuizTests.xctest */,
+				112720B02B6F8B0500574BCD /* GbfsQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		112720982B6F8B0300574BCD /* GbfsQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				110318552B73D31400502128 /* ProviderView */,
+				1103184E2B73640300502128 /* LeaderBoard */,
+				110318472B72A8D800502128 /* DataSource */,
+				1103183E2B71284A00502128 /* Info.plist */,
+				112720EB2B6FE2C600574BCD /* Quiz */,
+				112720D82B6FB1D600574BCD /* Authentication */,
+				112720CE2B6F933100574BCD /* Utilities */,
+				112720C72B6F8C9600574BCD /* Models */,
+				112720C32B6F8C3000574BCD /* Extra */,
+				112720992B6F8B0300574BCD /* GbfsQuizApp.swift */,
+				1127209D2B6F8B0500574BCD /* Assets.xcassets */,
+				112720D52B6FA3A800574BCD /* GoogleService-Info.plist */,
+				1127209F2B6F8B0500574BCD /* Preview Content */,
+				112720CB2B6F92DC00574BCD /* ProviderLoader.swift */,
+			);
+			path = GbfsQuiz;
+			sourceTree = "<group>";
+		};
+		1127209F2B6F8B0500574BCD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				112720A02B6F8B0500574BCD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		112720A92B6F8B0500574BCD /* GbfsQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				112720AA2B6F8B0500574BCD /* GbfsQuizTests.swift */,
+			);
+			path = GbfsQuizTests;
+			sourceTree = "<group>";
+		};
+		112720B32B6F8B0500574BCD /* GbfsQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				112720B42B6F8B0500574BCD /* GbfsQuizUITests.swift */,
+				112720B62B6F8B0500574BCD /* GbfsQuizUITestsLaunchTests.swift */,
+			);
+			path = GbfsQuizUITests;
+			sourceTree = "<group>";
+		};
+		112720C32B6F8C3000574BCD /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				112720C42B6F8C4200574BCD /* systems.csv */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		112720C72B6F8C9600574BCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				112720D22B6F9C8800574BCD /* Provider.swift */,
+				112720E82B6FE13900574BCD /* User.swift */,
+				112720EF2B6FE8AA00574BCD /* MCQ.swift */,
+				112720F22B6FE9CB00574BCD /* Quiz.swift */,
+				110318532B7364EF00502128 /* ScoreListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		112720CE2B6F933100574BCD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				112720CF2B6F936500574BCD /* Constants.swift */,
+				1103183F2B718A6800502128 /* Tost.swift */,
+				110318412B726A3B00502128 /* String+Extention.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		112720D82B6FB1D600574BCD /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				112720D92B6FB1EC00574BCD /* LoginViewVM.swift */,
+				112720DC2B6FB1FA00574BCD /* SignupViewVM.swift */,
+				112720DF2B6FB23500574BCD /* LoginView.swift */,
+				112720E22B6FB24400574BCD /* SignupView.swift */,
+				1103185C2B73EEE600502128 /* LoginState.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		112720EB2B6FE2C600574BCD /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				1127209B2B6F8B0300574BCD /* QuizController.swift */,
+				112720EC2B6FE2E700574BCD /* QuizControllerVM.swift */,
+				110318432B7271C500502128 /* MultipleChoiceQuestionView.swift */,
+				110318452B7279A000502128 /* ResultView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		112720952B6F8B0300574BCD /* GbfsQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112720BA2B6F8B0500574BCD /* Build configuration list for PBXNativeTarget "GbfsQuiz" */;
+			buildPhases = (
+				112720922B6F8B0300574BCD /* Sources */,
+				112720932B6F8B0300574BCD /* Frameworks */,
+				112720942B6F8B0300574BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GbfsQuiz;
+			packageProductDependencies = (
+				112720C92B6F92AE00574BCD /* SwiftCSV */,
+				112720E62B6FBE8F00574BCD /* FirebaseAuth */,
+				117E33C42B710A7400A2BABE /* CSV */,
+				1103184A2B72A9FB00502128 /* FirebaseFirestore */,
+				1103184C2B72AA5200502128 /* FirebaseFirestoreSwift */,
+			);
+			productName = GbfsQuiz;
+			productReference = 112720962B6F8B0300574BCD /* GbfsQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		112720A52B6F8B0500574BCD /* GbfsQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112720BD2B6F8B0500574BCD /* Build configuration list for PBXNativeTarget "GbfsQuizTests" */;
+			buildPhases = (
+				112720A22B6F8B0500574BCD /* Sources */,
+				112720A32B6F8B0500574BCD /* Frameworks */,
+				112720A42B6F8B0500574BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112720A82B6F8B0500574BCD /* PBXTargetDependency */,
+			);
+			name = GbfsQuizTests;
+			productName = GbfsQuizTests;
+			productReference = 112720A62B6F8B0500574BCD /* GbfsQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		112720AF2B6F8B0500574BCD /* GbfsQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112720C02B6F8B0500574BCD /* Build configuration list for PBXNativeTarget "GbfsQuizUITests" */;
+			buildPhases = (
+				112720AC2B6F8B0500574BCD /* Sources */,
+				112720AD2B6F8B0500574BCD /* Frameworks */,
+				112720AE2B6F8B0500574BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112720B22B6F8B0500574BCD /* PBXTargetDependency */,
+			);
+			name = GbfsQuizUITests;
+			productName = GbfsQuizUITests;
+			productReference = 112720B02B6F8B0500574BCD /* GbfsQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1127208E2B6F8B0300574BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					112720952B6F8B0300574BCD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					112720A52B6F8B0500574BCD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 112720952B6F8B0300574BCD;
+					};
+					112720AF2B6F8B0500574BCD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 112720952B6F8B0300574BCD;
+					};
+				};
+			};
+			buildConfigurationList = 112720912B6F8B0300574BCD /* Build configuration list for PBXProject "GbfsQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1127208D2B6F8B0300574BCD;
+			packageReferences = (
+				112720C82B6F92AE00574BCD /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+				112720E52B6FBE8F00574BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				117E33C32B710A7400A2BABE /* XCRemoteSwiftPackageReference "CSV.swift" */,
+			);
+			productRefGroup = 112720972B6F8B0300574BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112720952B6F8B0300574BCD /* GbfsQuiz */,
+				112720A52B6F8B0500574BCD /* GbfsQuizTests */,
+				112720AF2B6F8B0500574BCD /* GbfsQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		112720942B6F8B0300574BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112720A12B6F8B0500574BCD /* Preview Assets.xcassets in Resources */,
+				1127209E2B6F8B0500574BCD /* Assets.xcassets in Resources */,
+				112720C52B6F8C4200574BCD /* systems.csv in Resources */,
+				112720D62B6FA3A800574BCD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112720A42B6F8B0500574BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112720C62B6F8C4200574BCD /* systems.csv in Resources */,
+				112720D72B6FA3A800574BCD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112720AE2B6F8B0500574BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112720922B6F8B0300574BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112720E32B6FB24400574BCD /* SignupView.swift in Sources */,
+				110318522B73643800502128 /* LeaderBoardViewVM.swift in Sources */,
+				112720DD2B6FB1FA00574BCD /* SignupViewVM.swift in Sources */,
+				110318502B73641C00502128 /* LeaderBoardView.swift in Sources */,
+				112720DA2B6FB1EC00574BCD /* LoginViewVM.swift in Sources */,
+				110318402B718A6800502128 /* Tost.swift in Sources */,
+				112720D32B6F9C8800574BCD /* Provider.swift in Sources */,
+				112720CC2B6F92DC00574BCD /* ProviderLoader.swift in Sources */,
+				112720F02B6FE8AA00574BCD /* MCQ.swift in Sources */,
+				1127209C2B6F8B0300574BCD /* QuizController.swift in Sources */,
+				1127209A2B6F8B0300574BCD /* GbfsQuizApp.swift in Sources */,
+				112720ED2B6FE2E700574BCD /* QuizControllerVM.swift in Sources */,
+				1103185A2B73D34800502128 /* ProviderViewVM.swift in Sources */,
+				1103185D2B73EEE600502128 /* LoginState.swift in Sources */,
+				110318542B7364EF00502128 /* ScoreListItem.swift in Sources */,
+				112720F32B6FE9CB00574BCD /* Quiz.swift in Sources */,
+				112720E02B6FB23500574BCD /* LoginView.swift in Sources */,
+				110318572B73D33200502128 /* ProviderView.swift in Sources */,
+				110318492B72A8F500502128 /* DAO.swift in Sources */,
+				112720E92B6FE13900574BCD /* User.swift in Sources */,
+				110318462B7279A000502128 /* ResultView.swift in Sources */,
+				110318442B7271C500502128 /* MultipleChoiceQuestionView.swift in Sources */,
+				110318422B726A3B00502128 /* String+Extention.swift in Sources */,
+				112720D02B6F936500574BCD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112720A22B6F8B0500574BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1103185B2B73D34800502128 /* ProviderViewVM.swift in Sources */,
+				112720DE2B6FB1FA00574BCD /* SignupViewVM.swift in Sources */,
+				112720E12B6FB23500574BCD /* LoginView.swift in Sources */,
+				112720F42B6FE9CB00574BCD /* Quiz.swift in Sources */,
+				112720CD2B6F92DC00574BCD /* ProviderLoader.swift in Sources */,
+				112720AB2B6F8B0500574BCD /* GbfsQuizTests.swift in Sources */,
+				112720E42B6FB24400574BCD /* SignupView.swift in Sources */,
+				112720EA2B6FE13900574BCD /* User.swift in Sources */,
+				112720F12B6FE8AA00574BCD /* MCQ.swift in Sources */,
+				112720EE2B6FE2E700574BCD /* QuizControllerVM.swift in Sources */,
+				1103185E2B73EEE600502128 /* LoginState.swift in Sources */,
+				112720D42B6F9C8800574BCD /* Provider.swift in Sources */,
+				112720DB2B6FB1EC00574BCD /* LoginViewVM.swift in Sources */,
+				110318582B73D33200502128 /* ProviderView.swift in Sources */,
+				112720D12B6F936500574BCD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112720AC2B6F8B0500574BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112720B72B6F8B0500574BCD /* GbfsQuizUITestsLaunchTests.swift in Sources */,
+				112720B52B6F8B0500574BCD /* GbfsQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		112720A82B6F8B0500574BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112720952B6F8B0300574BCD /* GbfsQuiz */;
+			targetProxy = 112720A72B6F8B0500574BCD /* PBXContainerItemProxy */;
+		};
+		112720B22B6F8B0500574BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112720952B6F8B0300574BCD /* GbfsQuiz */;
+			targetProxy = 112720B12B6F8B0500574BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		112720B82B6F8B0500574BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		112720B92B6F8B0500574BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112720BB2B6F8B0500574BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GbfsQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = 4M538E22HU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GbfsQuiz/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.enochtech.GbfsQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112720BC2B6F8B0500574BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GbfsQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = 4M538E22HU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GbfsQuiz/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.enochtech.GbfsQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		112720BE2B6F8B0500574BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M538E22HU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enochtech.nl.GbfsQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GbfsQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GbfsQuiz";
+			};
+			name = Debug;
+		};
+		112720BF2B6F8B0500574BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M538E22HU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enochtech.nl.GbfsQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GbfsQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GbfsQuiz";
+			};
+			name = Release;
+		};
+		112720C12B6F8B0500574BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M538E22HU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enochtech.nl.GbfsQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GbfsQuiz;
+			};
+			name = Debug;
+		};
+		112720C22B6F8B0500574BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M538E22HU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enochtech.nl.GbfsQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GbfsQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112720912B6F8B0300574BCD /* Build configuration list for PBXProject "GbfsQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112720B82B6F8B0500574BCD /* Debug */,
+				112720B92B6F8B0500574BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112720BA2B6F8B0500574BCD /* Build configuration list for PBXNativeTarget "GbfsQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112720BB2B6F8B0500574BCD /* Debug */,
+				112720BC2B6F8B0500574BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112720BD2B6F8B0500574BCD /* Build configuration list for PBXNativeTarget "GbfsQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112720BE2B6F8B0500574BCD /* Debug */,
+				112720BF2B6F8B0500574BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112720C02B6F8B0500574BCD /* Build configuration list for PBXNativeTarget "GbfsQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112720C12B6F8B0500574BCD /* Debug */,
+				112720C22B6F8B0500574BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		112720C82B6F92AE00574BCD /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+		112720E52B6FBE8F00574BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+		117E33C32B710A7400A2BABE /* XCRemoteSwiftPackageReference "CSV.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yaslab/CSV.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1103184A2B72A9FB00502128 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 112720E52B6FBE8F00574BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1103184C2B72AA5200502128 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 112720E52B6FBE8F00574BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		112720C92B6F92AE00574BCD /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 112720C82B6F92AE00574BCD /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+		112720E62B6FBE8F00574BCD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 112720E52B6FBE8F00574BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		117E33C42B710A7400A2BABE /* CSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 117E33C32B710A7400A2BABE /* XCRemoteSwiftPackageReference "CSV.swift" */;
+			productName = CSV;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1127208E2B6F8B0300574BCD /* Project object */;
+}
