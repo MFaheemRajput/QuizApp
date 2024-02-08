@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ProviderDetailView: View {
     @ObservedObject var viewModel = ProviderDetailViewVM()
-    @State private var navigateToQuizView = false
     @State private var showErrorToast = false
     @State private var errorMessage = ""
     @State private var showProgress = false
@@ -17,20 +16,26 @@ struct ProviderDetailView: View {
     
     var body: some View {
         NavigationView{
-            
-            if let feeds = viewModel.providersDetail?.data.en.feeds {
-                List(feeds, id: \.name) { feed in
-                    NavigationLink(destination: QuizController()) {
-                        VStack(alignment: .leading) {
-                            Text("Name: \(feed.name)")
-                            Text("URL: \(feed.url)")
+            VStack{
+                if(showProgress){
+                    ProgressView()
+                } else {
+                    if let feeds = viewModel.providersDetail?.data.en.feeds {
+                        List(feeds, id: \.name) { feed in
+                            NavigationLink(destination: QuizController()) {
+                                VStack(alignment: .leading) {
+                                    Text("Name: \(feed.name)")
+                                    Text("URL: \(feed.url)")
+                                }
+                            }
+                            
                         }
+                        .navigationTitle("Feeds")
+                    } else {
+                        Text("No feeds found")
                     }
-                    
                 }
-                .navigationTitle("Feeds")
-            } else {
-                Text("No feeds found")
+                
             }
         }.onAppear {
             viewModel.fetchProviderDetail(self.provider)
@@ -45,7 +50,6 @@ struct ProviderDetailView: View {
                 showErrorToast = false
             case .success:
                 showProgress = false
-                navigateToQuizView = true
             case .failure(let errorMessage):
                 showProgress = false
                 self.errorMessage = errorMessage

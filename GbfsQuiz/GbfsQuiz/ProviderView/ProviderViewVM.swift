@@ -16,8 +16,14 @@ class ProviderViewVM:ObservableObject{
     }
     
     func fetchProviders(){
+        self.providerState = .loading
         self.providers.removeAll()
-        ProviderLoader.shared.readCSVFromFile()
-        self.providers = ProviderLoader.shared.providers
+        ProviderLoader.shared.readCSVFromFile()        
+        if ProviderLoader.shared.providers.count > 0 {
+            self.providerState = .success
+            self.providers = ProviderLoader.shared.providers
+        } else{
+            self.providerState = .failure("error while loading data")
+        }        
     }
 }

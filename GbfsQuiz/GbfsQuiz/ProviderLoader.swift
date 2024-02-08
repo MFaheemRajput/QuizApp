@@ -23,9 +23,8 @@ class ProviderLoader : NSObject{
         
         if let csvFileURL = Bundle.main.path(forResource: providersFileName, ofType: "csv") {
             do {
-                
                 let csv: CSV = try CSV<Named>(url: URL(fileURLWithPath: csvFileURL))
-                
+                self.providers.removeAll()
                 for row in csv.rows {
                     guard let cc = row["Country Code"] else {
                         return
@@ -58,7 +57,6 @@ class ProviderLoader : NSObject{
                         autoDiscoveryURL: adu,
                         authenticationInfo: authInfo
                     )
-                    
                     self.providers.append(providerModel)
                 }
             } catch {

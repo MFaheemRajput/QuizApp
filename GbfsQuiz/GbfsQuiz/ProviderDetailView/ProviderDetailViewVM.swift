@@ -18,11 +18,9 @@ class ProviderDetailViewVM:ObservableObject{
     }
     
     func fetchProviderDetail(_ provider : Provider){
+        self.providerState = .loading
         self.provider = provider
-        providerState = .loading
         if let systemInfoProvider = self.provider?.autoDiscoveryURL {
-            //self.providersDetail = ProviderLoader.shared.fetchGbfsdata(systemInfoProvider)
-            
             ProviderLoader.shared.fetchGbfsdata(systemInfoProvider) { providerDetail in
                 guard let pd = providerDetail else {
                     self.providerState = .failure("Somthing went wrong")
@@ -35,7 +33,9 @@ class ProviderDetailViewVM:ObservableObject{
         } else {
             providerState = .failure("no data found")
         }
+        
         self.providersDetail = ProviderLoader.shared.providerDetail
+        
         if(self.providersDetail == nil){
             providerState = .failure("no data found")
         } else{

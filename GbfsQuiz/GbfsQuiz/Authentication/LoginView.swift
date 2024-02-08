@@ -85,7 +85,8 @@ struct LoginView: View {
                         showErrorToast = true
                     }
             }
-        }.navigationBarBackButtonHidden(true)
+        }.navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
         
     }
 }

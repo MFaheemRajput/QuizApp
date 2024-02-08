@@ -9,28 +9,29 @@ import SwiftUI
 
 struct ProviderView: View {
     @ObservedObject var viewModel = ProviderViewVM()
-    @State private var navigateToQuizView = false
     @State private var showErrorToast = false
     @State private var errorMessage = ""
     @State private var showProgress = false
     
     var body: some View {
         NavigationView{
-            
-            List {
-                ForEach(viewModel.providers, id: \.self) { item in
-                    NavigationLink(destination: ProviderDetailView(provider: item)) {
-                        VStack(alignment: .leading) {
-                            Text("Name: \(item.name)")
+            if(showProgress){
+                ProgressView()
+            } else {
+                List {
+                    ForEach(viewModel.providers, id: \.self) { item in
+                        NavigationLink(destination: ProviderDetailView(provider: item)) {
+                            VStack(alignment: .leading) {
+                                Text("Name: \(item.name)")
+                            }
                         }
                     }
                 }
             }
-            .navigationTitle("Providers")
-            .onAppear {
-                viewModel.fetchProviders()
-            }
             
+        }.navigationBarTitle("Providers", displayMode: .inline)
+        .onAppear {
+            viewModel.fetchProviders()
         }.onChange(of: viewModel.providerState) { state in
             switch(state) {
             case .idle:
@@ -41,13 +42,15 @@ struct ProviderView: View {
                 showErrorToast = false
             case .success:
                 showProgress = false
-                navigateToQuizView = true
             case .failure(let errorMessage):
                 showProgress = false
                 self.errorMessage = errorMessage
                 showErrorToast = true
             }
         }
+        .navigationBarBackButtonHidden(true)
+        
+        
     }
 }
 

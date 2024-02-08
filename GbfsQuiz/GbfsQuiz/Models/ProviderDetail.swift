@@ -8,9 +8,9 @@
 import Foundation
 struct ProviderDetail:Codable {
     let lastUpdated: Int?
-    let ttl: Int
+    let ttl: Int?
     let data: DataResponse
-    let version: String
+    let version: String?
     
     struct DataResponse: Codable {
         let en: EnResponse
